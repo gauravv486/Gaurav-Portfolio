@@ -1,0 +1,97 @@
+@media screen and (max-width: 940px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .profile{
+        display: flex;
+        justify-content: start;
+        margin: 60px 60px 0px 60px;
+    }
+    .name{
+        display: flex;
+        justify-content: start;
+        margin-left: 60px;
+    }
+    .container{
+        height: 1400px;
+        padding-right: 60px;
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 100%;
+        height: auto;
+
+
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: relative;
+        display: unset;
+        height: 15%;
+        width: 100%;    
+    }
+    .continfo{
+        display: none;
+
+    }
+    #hr1{
+        display: none;
+    }
+    .social{
+        display: none;
+    }
+    .profile.name.year{
+        display: flex;
+        flex-direction: row;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+    }
+    .two{
+        display: flex;
+        flex-direction: column;
+    }
+    .child1{
+        width: 90%;
+    }
+    .media2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #img{
+        height: 70%;
+        width: 80%;
+    }
+    #video{
+        height: 70%;
+        width: 80%;
+    }
+    .mediacontent{
+        height: 190px;
+    }
+    .child2{
+        height: auto;
+        width: auto;
+    }
+}
+@media screen and (max-width: 550px)
+{
+   .mediacontent{
+    height: 100px;
+    width: 150px;
+   }
+} 
